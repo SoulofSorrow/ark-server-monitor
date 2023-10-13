@@ -1,46 +1,47 @@
 # Server Monitor
+[![de](https://img.shields.io/badge/lang-de-yello)](https://github.com/SoulofSorrow/ark-server-monitor/blob/main/README.de.md)
 
-Dieses Skript überwacht den Status von ARK-Servern und benachrichtigt per E-Mail, wenn der Status geändert wird.
+This script monitors the status of ARK servers and notifies via email when the status changes.
 
-## Funktionen
+## Features
 
-- Überwacht den Online-Status von ARK-Servern
-- Prüft den Status regelmäßig in konfigurierbaren Intervallen
-- Sendet E-Mail-Benachrichtigungen bei Statusänderungen
-- Unterstützt RCON zur Überprüfung des Serverstatus
-- Konfiguration über eine `config.yaml`-Datei
+- Monitors the online status of ARK servers.
+- Regularly checks the status at configurable intervals.
+- Sends email notifications on status changes.
+- Supports RCON for server status verification.
+- Configuration through a `config.yaml` file.
 
-## Anforderungen
+## Requirements
 
 - Python 3.x
-- `pythonping`-Bibliothek für den Ping-Check
-- `pyyaml`-Bibliothek für die Verarbeitung der Konfigurationsdatei
-- `smtplib`-Bibliothek für das Senden von E-Mails
+- `pythonping` library for ping check.
+- `pyyaml` library for processing the configuration file.
+- `smtplib` library for sending emails.
 
-## Verwendung
+## Usage
 
-1. Installiere die erforderlichen Abhängigkeiten:
+1. Install the required dependencies:
 
 ```shell
 pip install pythonping pyyaml
 ```
 
-2. Passe die Konfigurationsdatei `config.yaml` an und lege die ARK-Server fest, die überwacht werden sollen.
+2. Customize the config.yaml configuration file and specify the ARK servers to monitor.
 
-3. Führe das Skript aus:
+3. Run the script:
 
 ```shell
 python server_monitor.py
 ```
 
-4. Das Skript überwacht nun die konfigurierten ARK-Server und sendet E-Mail-Benachrichtigungen bei Statusänderungen.
+4. The script will now monitor the configured ARK servers and send email notifications on status changes.
 
-## Konfiguration
+## Configuration
 
-Die Konfiguration erfolgt über die `config.yaml`-Datei. Hier sind einige wichtige Konfigurationsoptionen:
+Configuration is done through the config.yaml file. Here are some important configuration options:
 
-- `servers`: Eine Liste von ARK-Servern, die überwacht werden sollen. Jeder Server wird mit Namen, IP-Adresse, Port und RCON-Passwort konfiguriert.
-- `email`: E-Mail-Konfiguration für das Senden von Benachrichtigungen. Konfiguriere den SMTP-Server, Absender, Empfänger und Anmeldeinformationen.
+- `servers`: A list of ARK servers to monitor. Each server is configured with a name, IP address, port, and RCON password.
+- `email`: Email configuration for sending notifications. Configure the SMTP server, sender, recipient, and credentials.
 
 ## Autoren
 
