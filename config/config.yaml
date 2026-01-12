@@ -1,0 +1,24 @@
+email:
+  enabled: false
+    - <email>
+  use_ssl: false
+  use_starttls: true
+  use_auth: true
+  host: <server>
+  port: 587
+  username: <email>
+  password: <password>
+  from: <email>
+
+root_server_ip: <ip>
+
+servers:
+  - name: Mein ARK-Server
+    server_ip: 
+    port: 
+    rcon_password: 
+
+log_file: server_monitor.log
+log_backup_count: 30
+
+interval_seconds: 5

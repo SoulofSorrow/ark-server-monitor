@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    ark-server-monitor:
+        container_name: ark-server-monitor
+        volumes:
+            - './config:/app/config'
+        image: server-monitor
+        restart: unless-stopped
