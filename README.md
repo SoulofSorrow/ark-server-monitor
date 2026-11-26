@@ -46,3 +46,8 @@ Configuration is done through the config.yaml file. Here are some important conf
 ## Autoren
 
 - [SoulofSorrow](https://github.com/SoulofSorrow)
+
+## Documentation
+
+- `docs/README.md`: index of the technical docs and the change records in `docs/changes/`.
+- `AGENTS.md`: instructions for AI coding agents; `CLAUDE.md` imports it.

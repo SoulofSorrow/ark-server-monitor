@@ -47,3 +47,8 @@ Die Konfiguration erfolgt über die `config.yaml`-Datei. Hier sind einige wichti
 ## Autoren
 
 - [SoulofSorrow](https://github.com/SoulofSorrow)
+
+## Dokumentation
+
+- `docs/README.md`: Index der technischen Dokumentation und der Change-Records unter `docs/changes/`.
+- `AGENTS.md`: Arbeitsanweisungen für KI-Coding-Agents; `CLAUDE.md` importiert sie.
